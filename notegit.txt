@@ -1,0 +1,11 @@
+note git
+
+git branch -> sử dụng git master
+git status -> xem trạng thái ở git
+git add ... -> add 1 file vào git
+git commit -m "C1 - Create" VD : "C1 - Khoi tao"
+git log -> xem những lịch sử git commit nào 
+git restore <flie> -> phục hồi file vừa xóa = thao tác tay
+git restore . -> phục hồi tất cả các file vừa xóa
+git diff -> so sánh file vừa bị modified ( sau lệnh này thì nếu như có diff thì phải commit 1 lần nữa )
+git diff --staged -> cho thấy những nội dung đã bị thay đổi trong file của git
