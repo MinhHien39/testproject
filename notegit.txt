@@ -9,3 +9,13 @@ git restore <flie> -> phục hồi file vừa xóa = thao tác tay
 git restore . -> phục hồi tất cả các file vừa xóa
 git diff -> so sánh file vừa bị modified ( sau lệnh này thì nếu như có diff thì phải commit 1 lần nữa )
 git diff --staged -> cho thấy những nội dung đã bị thay đổi trong file của git
+--------------------------------------------------------------------
+
+git checkout (mã h của commit) -> phục hồi commit
+git restore --staged . ( đưa trạng thái staged -> về trạng thái modified)
+git reset --soft HEAD~1 ( đưa commit cuối cùng về vùng staged ( dữ liệu không mất hẳn ))
+git reset -- hard HEAD~1 ( xóa hẳn commit cuối cùng ( bao gồm nội dung))
+git branch + nameBranch -> tạo 1 nhánh làm việc trong 1 nhánh cha
+git checkout nameBranch -> chuyển sang nhánh con làm việc
+git merge nameBrach -> ( gộp nhánh vào nhánh master)
+git branch -D nameBrach -> ( xóa nhánh )
